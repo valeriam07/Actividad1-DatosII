@@ -19,7 +19,7 @@
     <target name="dist" depends="compile" description="generate the distribution">
         <buildnumber/>
         <mkdir dir="${dist}"/>
-        <jar destfile="${dist}/linear-data-structures-${version}.${build.number}.jar" basedir="${build}"/>
+        <jar destfile="${dist}/Actividad1-${version}.${build.number}.jar" basedir="${build}"/>
     </target>
 
     <target name="clean" description="clean up">
